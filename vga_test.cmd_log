@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/vga_test.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/vga_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o vga_test_map.ncd vga_test.ngd vga_test.pcf 
+par -w -intstyle ise -ol high -t 1 vga_test_map.ncd vga_test.ncd vga_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vga_test.twx vga_test.ncd -o vga_test.twr vga_test.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o vga_test_map.ncd vga_test.ngd vga_test.pcf 
+par -w -intstyle ise -ol high -t 1 vga_test_map.ncd vga_test.ncd vga_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vga_test.twx vga_test.ncd -o vga_test.twr vga_test.pcf 
+bitgen -intstyle ise -f vga_test.ut vga_test.ncd 
+bitgen -intstyle ise -f vga_test.ut vga_test.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/vga_test.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/vga_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_test.ucf -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_test.ucf -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o vga_test_map.ncd vga_test.ngd vga_test.pcf 
+par -w -intstyle ise -ol high -t 1 vga_test_map.ncd vga_test.ncd vga_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vga_test.twx vga_test.ncd -o vga_test.twr vga_test.pcf -ucf vga_test.ucf 
+bitgen -intstyle ise -f vga_test.ut vga_test.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/vga_test.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/vga_test.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/vga_test.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/vga_test.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/vga_test.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/vga_test.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/vga_test.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/vga_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_test.ucf -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o vga_test_map.ncd vga_test.ngd vga_test.pcf 
+par -w -intstyle ise -ol high -t 1 vga_test_map.ncd vga_test.ncd vga_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vga_test.twx vga_test.ncd -o vga_test.twr vga_test.pcf -ucf vga_test.ucf 
+bitgen -intstyle ise -f vga_test.ut vga_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_test.ucf -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o vga_test_map.ncd vga_test.ngd vga_test.pcf 
+par -w -intstyle ise -ol high -t 1 vga_test_map.ncd vga_test.ncd vga_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vga_test.twx vga_test.ncd -o vga_test.twr vga_test.pcf -ucf vga_test.ucf 
+bitgen -intstyle ise -f vga_test.ut vga_test.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/vga_test.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/vga_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_test.ucf -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_test.ucf -p xc3s50a-tq144-4 vga_test.ngc vga_test.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o vga_test_map.ncd vga_test.ngd vga_test.pcf 
+par -w -intstyle ise -ol high -t 1 vga_test_map.ncd vga_test.ncd vga_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vga_test.twx vga_test.ncd -o vga_test.twr vga_test.pcf -ucf vga_test.ucf 
+bitgen -intstyle ise -f vga_test.ut vga_test.ncd 

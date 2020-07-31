@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/rommac/testing_xilinx/testingVga3/pong.ncd
+OUTFILE=/home/rommac/testing_xilinx/testingVga3/pong.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-4tq144
+WORKINGDIR=/home/rommac/testing_xilinx/testingVga3
+LICENSE=WebPack
+USER_INFO=211898048_0_0_943

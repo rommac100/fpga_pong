@@ -1,0 +1,429 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: vga_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vga_test.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vga_test"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : vga_test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "clock_inst.v" in library work
+Compiling verilog file "hsync_generator.v" in library work
+Module <clock_inst> compiled
+Compiling verilog file "vga_test.v" in library work
+Module <hvsync_generator> compiled
+Compiling verilog file "clk_boost.v" in library work
+Module <vga_test> compiled
+Module <clk_boost> compiled
+No errors in compilation
+Analysis of file <"vga_test.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <vga_test> in library <work>.
+
+Analyzing hierarchy for module <clock_inst> in library <work>.
+
+Analyzing hierarchy for module <hvsync_generator> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <vga_test>.
+WARNING:Xst:852 - "vga_test.v" line 28: Unconnected input port 'RST_IN' of instance 'instance_name' is tied to GND.
+Module <vga_test> is correct for synthesis.
+ 
+Analyzing module <clock_inst> in library <work>.
+Module <clock_inst> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKFX_DIVIDE =  12" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKFX_MULTIPLY =  25" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKIN_PERIOD =  83.333000" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <clock_inst>.
+Analyzing module <hvsync_generator> in library <work>.
+Module <hvsync_generator> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <hvsync_generator>.
+    Related source file is "hsync_generator.v".
+    Found 10-bit up counter for signal <CounterX>.
+    Found 9-bit up counter for signal <CounterY>.
+    Found 1-bit register for signal <inDisplayArea>.
+    Found 10-bit comparator less for signal <inDisplayArea$cmp_lt0000> created at line 39.
+    Found 9-bit comparator less for signal <inDisplayArea$cmp_lt0001> created at line 39.
+    Found 1-bit register for signal <vga_HS>.
+    Found 10-bit comparator greater for signal <vga_HS$cmp_gt0000> created at line 33.
+    Found 10-bit comparator less for signal <vga_HS$cmp_lt0000> created at line 33.
+    Found 1-bit register for signal <vga_VS>.
+    Found 9-bit comparator greater for signal <vga_VS$cmp_gt0000> created at line 34.
+    Found 9-bit comparator less for signal <vga_VS$cmp_lt0000> created at line 34.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+Unit <hvsync_generator> synthesized.
+
+
+Synthesizing Unit <clock_inst>.
+    Related source file is "clock_inst.v".
+Unit <clock_inst> synthesized.
+
+
+Synthesizing Unit <vga_test>.
+    Related source file is "vga_test.v".
+WARNING:Xst:646 - Signal <CounterX<5:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 3-bit register for signal <pixel>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <vga_test> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 4
+ 1-bit register                                        : 3
+ 3-bit register                                        : 1
+# Comparators                                          : 6
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 2
+ 9-bit comparator greater                              : 1
+ 9-bit comparator less                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Comparators                                          : 6
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 2
+ 9-bit comparator greater                              : 1
+ 9-bit comparator less                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <vga_test> ...
+
+Optimizing unit <hvsync_generator> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vga_test, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : vga_test.ngr
+Top Level Output File Name         : vga_test
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 73
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 17
+#      LUT3                        : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 7
+#      LUT4_L                      : 1
+#      MUXCY                       : 17
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 25
+#      FDE                         : 9
+#      FDR                         : 15
+#      FDRS                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 6
+#      IBUFG                       : 1
+#      OBUF                        : 5
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-4 
+
+ Number of Slices:                       19  out of    704     2%  
+ Number of Slice Flip Flops:             25  out of   1408     1%  
+ Number of 4 input LUTs:                 34  out of   1408     2%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    108     5%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DCMs:                          1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)          | Load  |
+-----------------------------------+--------------------------------+-------+
+clk                                | instance_name/DCM_SP_INST:CLKFX| 25    |
+-----------------------------------+--------------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.229ns (Maximum Frequency: 97.760MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.599ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 10.229ns (frequency: 97.760MHz)
+  Total number of paths / destination ports: 338 / 51
+-------------------------------------------------------------------------
+Delay:               4.910ns (Levels of Logic = 2)
+  Source:            hvsync/CounterX_3 (FF)
+  Destination:       hvsync/CounterX_9 (FF)
+  Source Clock:      clk rising 2.1X
+  Destination Clock: clk rising 2.1X
+
+  Data Path: hvsync/CounterX_3 to hvsync/CounterX_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.590  hvsync/CounterX_3 (hvsync/CounterX_3)
+     LUT4:I0->O            2   0.648   0.479  hvsync/CounterXmaxed11 (hvsync/N7)
+     LUT4:I2->O           19   0.648   1.085  hvsync/CounterXmaxed (hvsync/CounterXmaxed)
+     FDR:R                     0.869          hvsync/CounterX_0
+    ----------------------------------------
+    Total                      4.910ns (2.756ns logic, 2.154ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              6.599ns (Levels of Logic = 2)
+  Source:            hvsync/vga_VS (FF)
+  Destination:       vsync_out (PAD)
+  Source Clock:      clk rising 2.1X
+
+  Data Path: hvsync/vga_VS to vsync_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             1   0.591   0.420  hvsync/vga_VS (hvsync/vga_VS)
+     INV:I->O              1   0.648   0.420  hvsync/vga_v_sync1_INV_0 (vsync_out_OBUF)
+     OBUF:I->O                 4.520          vsync_out_OBUF (vsync_out)
+    ----------------------------------------
+    Total                      6.599ns (5.759ns logic, 0.840ns route)
+                                       (87.3% logic, 12.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.22 secs
+ 
+--> 
+
+
+Total memory usage is 503984 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

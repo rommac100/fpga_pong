@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+clk_boost instance_name (
+    .CLKIN_IN(CLKIN_IN), 
+    .PSCLK_IN(PSCLK_IN), 
+    .PSEN_IN(PSEN_IN), 
+    .PSINCDEC_IN(PSINCDEC_IN), 
+    .CLKFX_OUT(CLKFX_OUT), 
+    .CLKIN_IBUFG_OUT(CLKIN_IBUFG_OUT), 
+    .CLK0_OUT(CLK0_OUT), 
+    .PSDONE_OUT(PSDONE_OUT)
+    );
+
+

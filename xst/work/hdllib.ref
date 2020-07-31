@@ -1,0 +1,10 @@
+MO clk_boost NULL clk_boost.v vlg6C/clk__boost.bin 1583107211
+MO clock_inst NULL clock_inst.v vlg45/clock__inst.bin 1583107211
+MO PWM NULL PWM.v vlg50/_p_w_m.bin 1583036478
+MO pad_ctrl NULL pad_ctrl.v vlg0D/pad__ctrl.bin 1583107211
+MO seg_disp NULL seg_disp.v vlg4A/seg__disp.bin 1582948533
+MO pong NULL pong.v vlg14/pong.bin 1583107211
+MO vga_test NULL vga_test.v vlg15/vga__test.bin 1582837145
+MO score_gen NULL score_gen.v vlg69/score__gen.bin 1583107211
+MO square_wave_gen NULL square_wave_gen.v vlg1C/square__wave__gen.bin 1583107211
+MO hvsync_generator NULL hsync_generator.v vlg51/hvsync__generator.bin 1583107211

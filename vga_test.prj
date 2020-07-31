@@ -1,0 +1,4 @@
+verilog work "clock_inst.v"
+verilog work "hsync_generator.v"
+verilog work "vga_test.v"
+verilog work "clk_boost.v"

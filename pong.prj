@@ -1,0 +1,7 @@
+verilog work "square_wave_gen.v"
+verilog work "score_gen.v"
+verilog work "pad_ctrl.v"
+verilog work "clock_inst.v"
+verilog work "hsync_generator.v"
+verilog work "pong.v"
+verilog work "clk_boost.v"

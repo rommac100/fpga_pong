@@ -1,0 +1,989 @@
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim pong.ngc pong_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 
+xst -intstyle ise -ifn "/home/rommac/testing_xilinx/testingVga3/pong.xst" -ofn "/home/rommac/testing_xilinx/testingVga3/pong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pong.ucf -p xc3s50a-tq144-4 pong.ngc pong.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o pong_map.ncd pong.ngd pong.pcf 
+par -w -intstyle ise -ol high -t 1 pong_map.ncd pong.ncd pong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pong.twx pong.ncd -o pong.twr pong.pcf -ucf pong.ucf 
+bitgen -intstyle ise -f pong.ut pong.ncd 

@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 27 14:01:02 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "pixel<1>" LOCATE = SITE "P99" LEVEL 1;
+COMP "pixel<2>" LOCATE = SITE "P96" LEVEL 1;
+COMP "clk" LOCATE = SITE "P129" LEVEL 1;
+COMP "vsync_out" LOCATE = SITE "P92" LEVEL 1;
+COMP "hsync_out" LOCATE = SITE "P93" LEVEL 1;
+COMP "pixel<0>" LOCATE = SITE "P103" LEVEL 1;
+NET "instance_name/CLKIN_IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+

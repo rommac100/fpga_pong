@@ -1,0 +1,774 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: pong.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pong.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pong"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : pong
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "square_wave_gen.v" in library work
+Compiling verilog file "score_gen.v" in library work
+Module <square_wave_gen> compiled
+Compiling verilog file "pad_ctrl.v" in library work
+Module <score_gen> compiled
+WARNING:HDLCompilers:21 - "pad_ctrl.v" line 39 Zero width on based number ignored
+Compiling verilog file "clock_inst.v" in library work
+Module <pad_ctrl> compiled
+Compiling verilog file "hsync_generator.v" in library work
+Module <clock_inst> compiled
+Compiling verilog file "pong.v" in library work
+Module <hvsync_generator> compiled
+WARNING:HDLCompilers:21 - "pong.v" line 24 Zero width on based number ignored
+Compiling verilog file "clk_boost.v" in library work
+Module <pong> compiled
+Module <clk_boost> compiled
+No errors in compilation
+Analysis of file <"pong.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <pong> in library <work>.
+
+Analyzing hierarchy for module <pad_ctrl> in library <work> with parameters.
+	ball_size = "00000000000000000000000000001000"
+	pad_size_x = "00000000000000000000000000001010"
+	pad_size_y = "00000000000000000000000000110010"
+	x_start = "00000000000000000000000000001010"
+	x_start_bar_2 = "00000000000000000000001001100010"
+	y_start = "00000000000000000000000000110010"
+
+Analyzing hierarchy for module <score_gen> in library <work>.
+
+Analyzing hierarchy for module <clock_inst> in library <work>.
+
+Analyzing hierarchy for module <hvsync_generator> in library <work>.
+
+Analyzing hierarchy for module <square_wave_gen> in library <work> with parameters.
+	CLOCK_FREQUENCY = "00000000000000000100000100011010"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pong>.
+WARNING:Xst:852 - "pong.v" line 41: Unconnected input port 'RST_IN' of instance 'instance_name' is tied to GND.
+WARNING:Xst:852 - "pong.v" line 46: Unconnected input port 'rst_n' of instance 'inst_wave' is tied to GND.
+Module <pong> is correct for synthesis.
+ 
+Analyzing module <pad_ctrl> in library <work>.
+	ball_size = 32'sb00000000000000000000000000001000
+	pad_size_x = 32'sb00000000000000000000000000001010
+	pad_size_y = 32'sb00000000000000000000000000110010
+	x_start = 32'sb00000000000000000000000000001010
+	x_start_bar_2 = 32'sb00000000000000000000001001100010
+	y_start = 32'sb00000000000000000000000000110010
+Module <pad_ctrl> is correct for synthesis.
+ 
+Analyzing module <score_gen> in library <work>.
+Module <score_gen> is correct for synthesis.
+ 
+Analyzing module <clock_inst> in library <work>.
+Module <clock_inst> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <clock_inst>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKFX_DIVIDE =  12" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKFX_MULTIPLY =  25" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKIN_PERIOD =  83.333000" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <clock_inst>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <clock_inst>.
+Analyzing module <hvsync_generator> in library <work>.
+Module <hvsync_generator> is correct for synthesis.
+ 
+Analyzing module <square_wave_gen> in library <work>.
+	CLOCK_FREQUENCY = 32'sb00000000000000000100000100011010
+Module <square_wave_gen> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <pad_ctrl>.
+    Related source file is "pad_ctrl.v".
+    Found 2-bit up counter for signal <round>.
+    Found 3-bit register for signal <scoreRight>.
+    Found 3-bit up counter for signal <scoreLeft>.
+    Found 1-bit register for signal <hit>.
+    Found 1-bit register for signal <pixelOut>.
+    Found 10-bit adder for signal <$add0002> created at line 112.
+    Found 11-bit subtractor for signal <$sub0000> created at line 104.
+    Found 12-bit subtractor for signal <$sub0001> created at line 104.
+    Found 11-bit subtractor for signal <$sub0002> created at line 134.
+    Found 11-bit subtractor for signal <$sub0003> created at line 142.
+    Found 9-bit adder carry out for signal <add0000$addsub0000> created at line 104.
+    Found 9-bit adder carry out for signal <add0001$addsub0000> created at line 142.
+    Found 9-bit adder carry out for signal <add0003$addsub0000> created at line 197.
+    Found 9-bit adder carry out for signal <add0004$addsub0000> created at line 197.
+    Found 10-bit adder carry out for signal <add0005$addsub0000> created at line 197.
+    Found 9-bit adder carry out for signal <add0006$addsub0000> created at line 197.
+    Found 1-bit register for signal <hit_reset>.
+    Found 10-bit comparator greatequal for signal <hit_reset$cmp_ge0000> created at line 93.
+    Found 11-bit comparator greatequal for signal <hit_reset$cmp_ge0001> created at line 123.
+    Found 10-bit comparator greatequal for signal <hit_reset$cmp_ge0002> created at line 123.
+    Found 9-bit comparator greatequal for signal <hit_reset$cmp_ge0003> created at line 134.
+    Found 11-bit comparator greatequal for signal <hit_reset$cmp_ge0004> created at line 142.
+    Found 11-bit comparator greatequal for signal <hit_reset$cmp_ge0005> created at line 104.
+    Found 10-bit comparator greatequal for signal <hit_reset$cmp_ge0006> created at line 112.
+    Found 10-bit comparator greater for signal <hit_reset$cmp_gt0000> created at line 93.
+    Found 9-bit comparator lessequal for signal <hit_reset$cmp_le0000> created at line 93.
+    Found 11-bit comparator lessequal for signal <hit_reset$cmp_le0001> created at line 123.
+    Found 9-bit comparator lessequal for signal <hit_reset$cmp_le0002> created at line 123.
+    Found 11-bit comparator lessequal for signal <hit_reset$cmp_le0003> created at line 134.
+    Found 10-bit comparator lessequal for signal <hit_reset$cmp_le0004> created at line 142.
+    Found 12-bit comparator lessequal for signal <hit_reset$cmp_le0005> created at line 104.
+    Found 10-bit comparator lessequal for signal <hit_reset$cmp_le0006> created at line 112.
+    Found 10-bit comparator greatequal for signal <pixelOut$cmp_ge0000> created at line 197.
+    Found 10-bit comparator greatequal for signal <pixelOut$cmp_ge0001> created at line 197.
+    Found 10-bit comparator greater for signal <pixelOut$cmp_gt0000> created at line 197.
+    Found 10-bit comparator greater for signal <pixelOut$cmp_gt0001> created at line 197.
+    Found 9-bit comparator greater for signal <pixelOut$cmp_gt0002> created at line 197.
+    Found 11-bit comparator greater for signal <pixelOut$cmp_gt0003> created at line 197.
+    Found 10-bit comparator lessequal for signal <pixelOut$cmp_le0000> created at line 197.
+    Found 10-bit comparator lessequal for signal <pixelOut$cmp_le0001> created at line 197.
+    Found 10-bit comparator less for signal <pixelOut$cmp_lt0000> created at line 197.
+    Found 11-bit comparator less for signal <pixelOut$cmp_lt0001> created at line 197.
+    Found 10-bit comparator less for signal <pixelOut$cmp_lt0002> created at line 197.
+    Found 10-bit comparator less for signal <pixelOut$cmp_lt0003> created at line 197.
+    Found 2-bit adder for signal <round$mux0000>.
+    Found 3-bit adder for signal <scoreRight$addsub0000> created at line 186.
+    Found 1-bit register for signal <update>.
+    Found 2-bit up counter for signal <update2>.
+    Found 10-bit adder for signal <update2$add0000> created at line 112.
+    Found 10-bit comparator greater for signal <update2$cmp_gt0000> created at line 142.
+    Found 11-bit comparator greater for signal <update2$cmp_gt0001> created at line 134.
+    Found 11-bit comparator greater for signal <update2$cmp_gt0002> created at line 123.
+    Found 9-bit comparator greater for signal <update2$cmp_gt0003> created at line 123.
+    Found 10-bit comparator greater for signal <update2$cmp_gt0004> created at line 93.
+    Found 9-bit comparator greater for signal <update2$cmp_gt0005> created at line 93.
+    Found 11-bit comparator greater for signal <update2$cmp_gt0006> created at line 132.
+    Found 10-bit comparator greater for signal <update2$cmp_gt0007> created at line 112.
+    Found 12-bit comparator greater for signal <update2$cmp_gt0008> created at line 104.
+    Found 11-bit comparator greater for signal <update2$cmp_gt0009> created at line 102.
+    Found 11-bit comparator greater for signal <update2$cmp_gt0010> created at line 132.
+    Found 10-bit comparator lessequal for signal <update2$cmp_le0000> created at line 93.
+    Found 11-bit comparator lessequal for signal <update2$cmp_le0001> created at line 132.
+    Found 11-bit comparator lessequal for signal <update2$cmp_le0002> created at line 102.
+    Found 10-bit comparator lessequal for signal <update2$cmp_le0003> created at line 102.
+    Found 11-bit comparator lessequal for signal <update2$cmp_le0004> created at line 132.
+    Found 11-bit comparator less for signal <update2$cmp_lt0000> created at line 142.
+    Found 9-bit comparator less for signal <update2$cmp_lt0001> created at line 134.
+    Found 11-bit comparator less for signal <update2$cmp_lt0002> created at line 123.
+    Found 10-bit comparator less for signal <update2$cmp_lt0003> created at line 123.
+    Found 10-bit comparator less for signal <update2$cmp_lt0004> created at line 93.
+    Found 10-bit comparator less for signal <update2$cmp_lt0005> created at line 112.
+    Found 11-bit comparator less for signal <update2$cmp_lt0006> created at line 104.
+    Found 2-bit adder for signal <update2$mux0000>.
+    Found 1-bit register for signal <x_ball_dir>.
+    Found 10-bit adder for signal <x_ball_dir$addsub0000> created at line 112.
+    Found 10-bit register for signal <x_ball_pos>.
+    Found 10-bit addsub for signal <x_ball_pos$addsub0000>.
+    Found 10-bit comparator less for signal <x_ball_pos$cmp_lt0000> created at line 173.
+    Found 3-bit up counter for signal <x_ball_vel>.
+    Found 3-bit comparator greatequal for signal <x_ball_vel$cmp_ge0000> created at line 126.
+    Found 11-bit comparator greater for signal <x_ball_vel$cmp_gt0000> created at line 153.
+    Found 1-bit register for signal <y_ball_dir>.
+    Found 10-bit comparator greater for signal <y_ball_dir$cmp_gt0000> created at line 168.
+    Found 9-bit comparator less for signal <y_ball_dir$cmp_lt0000> created at line 188.
+    Found 10-bit comparator less for signal <y_ball_dir$cmp_lt0001> created at line 112.
+    Found 9-bit register for signal <y_ball_pos>.
+    Found 9-bit addsub for signal <y_ball_pos$addsub0000>.
+    Found 3-bit register for signal <y_ball_vel>.
+    Found 3-bit comparator greatequal for signal <y_ball_vel$cmp_ge0000> created at line 191.
+    Found 10-bit comparator greatequal for signal <y_ball_vel$cmp_ge0001> created at line 173.
+    Found 9-bit comparator greatequal for signal <y_ball_vel$cmp_ge0002> created at line 188.
+    Found 11-bit comparator lessequal for signal <y_ball_vel$cmp_le0000> created at line 153.
+    Found 10-bit comparator lessequal for signal <y_ball_vel$cmp_le0001> created at line 168.
+    Found 3-bit adder for signal <y_ball_vel$share0000>.
+    Found 9-bit updown accumulator for signal <y_pos_bar_top>.
+    Found 9-bit comparator greatequal for signal <y_pos_bar_top$cmp_ge0000> created at line 61.
+    Found 9-bit comparator less for signal <y_pos_bar_top$cmp_lt0000> created at line 59.
+    Found 9-bit comparator less for signal <y_pos_bar_top$cmp_lt0001> created at line 61.
+    Found 9-bit updown accumulator for signal <y_pos_bar_top_2>.
+    Found 9-bit comparator greatequal for signal <y_pos_bar_top_2$cmp_ge0000> created at line 50.
+    Found 9-bit comparator less for signal <y_pos_bar_top_2$cmp_lt0000> created at line 48.
+    Found 9-bit comparator less for signal <y_pos_bar_top_2$cmp_lt0001> created at line 50.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   2 Accumulator(s).
+	inferred  31 D-type flip-flop(s).
+	inferred  19 Adder/Subtractor(s).
+	inferred  67 Comparator(s).
+Unit <pad_ctrl> synthesized.
+
+
+Synthesizing Unit <score_gen>.
+    Related source file is "score_gen.v".
+WARNING:Xst:1780 - Signal <yPos> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <xPos> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <pixelOn> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <scoreOut>.
+    Found 11-bit adder for signal <scoreOut$add0000> created at line 20.
+    Found 11-bit adder for signal <scoreOut$add0001> created at line 20.
+    Found 11-bit adder for signal <scoreOut$add0002> created at line 20.
+    Found 11-bit adder for signal <scoreOut$add0003> created at line 20.
+    Found 11-bit adder for signal <scoreOut$add0004> created at line 24.
+    Found 11-bit adder for signal <scoreOut$add0005> created at line 24.
+    Found 12-bit comparator greater for signal <scoreOut$cmp_gt0000> created at line 20.
+    Found 9-bit comparator greater for signal <scoreOut$cmp_gt0001> created at line 20.
+    Found 12-bit comparator greater for signal <scoreOut$cmp_gt0002> created at line 20.
+    Found 9-bit comparator greater for signal <scoreOut$cmp_gt0003> created at line 20.
+    Found 12-bit comparator greater for signal <scoreOut$cmp_gt0004> created at line 24.
+    Found 9-bit comparator greater for signal <scoreOut$cmp_gt0005> created at line 25.
+    Found 9-bit comparator greater for signal <scoreOut$cmp_gt0006> created at line 25.
+    Found 9-bit comparator greater for signal <scoreOut$cmp_gt0007> created at line 30.
+    Found 12-bit comparator less for signal <scoreOut$cmp_lt0000> created at line 20.
+    Found 9-bit comparator less for signal <scoreOut$cmp_lt0001> created at line 20.
+    Found 9-bit comparator less for signal <scoreOut$cmp_lt0002> created at line 20.
+    Found 12-bit comparator less for signal <scoreOut$cmp_lt0003> created at line 20.
+    Found 12-bit comparator less for signal <scoreOut$cmp_lt0004> created at line 24.
+    Found 9-bit comparator less for signal <scoreOut$cmp_lt0005> created at line 25.
+    Found 9-bit comparator less for signal <scoreOut$cmp_lt0006> created at line 30.
+    Found 10-bit register for signal <xOffset>.
+    Summary:
+	inferred  11 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred  15 Comparator(s).
+Unit <score_gen> synthesized.
+
+
+Synthesizing Unit <hvsync_generator>.
+    Related source file is "hsync_generator.v".
+    Found 10-bit up counter for signal <CounterX>.
+    Found 9-bit up counter for signal <CounterY>.
+    Found 1-bit register for signal <inDisplayArea>.
+    Found 9-bit comparator less for signal <inDisplayArea$cmp_lt0000> created at line 32.
+    Found 1-bit register for signal <vga_HS>.
+    Found 1-bit register for signal <vga_VS>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <hvsync_generator> synthesized.
+
+
+Synthesizing Unit <square_wave_gen>.
+    Related source file is "square_wave_gen.v".
+    Found 32-bit down counter for signal <counter>.
+    Found 1-bit register for signal <sq_wave_reg>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <square_wave_gen> synthesized.
+
+
+Synthesizing Unit <clock_inst>.
+    Related source file is "clock_inst.v".
+Unit <clock_inst> synthesized.
+
+
+Synthesizing Unit <pong>.
+    Related source file is "pong.v".
+WARNING:Xst:1780 - Signal <updateBallPosition> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <update> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <scoreright_offset> is used but never assigned. This sourceless signal will be automatically connected to value 0001100100.
+WARNING:Xst:653 - Signal <scoreleft_offset> is used but never assigned. This sourceless signal will be automatically connected to value 1100111000.
+WARNING:Xst:1780 - Signal <num> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Register <vga_G<0>> equivalent to <vga_B<0>> has been removed
+    Register <vga_R<0>> equivalent to <vga_B<0>> has been removed
+    Register <vga_G<1>> equivalent to <vga_B<1>> has been removed
+    Register <vga_R<1>> equivalent to <vga_B<1>> has been removed
+    Register <vga_R<2>> equivalent to <vga_G<2>> has been removed
+    Found 2-bit register for signal <vga_B>.
+    Found 1-bit register for signal <vga_G<2>>.
+    Found 1-bit 4-to-1 multiplexer for signal <vga_B_1$mux0000> created at line 54.
+    Found 1-bit 4-to-1 multiplexer for signal <vga_G_2$mux0000> created at line 54.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <pong> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 30
+ 10-bit adder                                          : 2
+ 10-bit adder carry out                                : 1
+ 10-bit addsub                                         : 1
+ 11-bit adder                                          : 12
+ 11-bit subtractor                                     : 3
+ 12-bit subtractor                                     : 1
+ 2-bit adder                                           : 2
+ 3-bit adder                                           : 2
+ 9-bit adder carry out                                 : 5
+ 9-bit addsub                                          : 1
+# Counters                                             : 7
+ 10-bit up counter                                     : 1
+ 2-bit up counter                                      : 2
+ 3-bit up counter                                      : 2
+ 32-bit down counter                                   : 1
+ 9-bit up counter                                      : 1
+# Accumulators                                         : 2
+ 9-bit updown accumulator                              : 2
+# Registers                                            : 21
+ 1-bit register                                        : 15
+ 10-bit register                                       : 3
+ 3-bit register                                        : 2
+ 9-bit register                                        : 1
+# Comparators                                          : 98
+ 10-bit comparator greatequal                          : 6
+ 10-bit comparator greater                             : 7
+ 10-bit comparator less                                : 8
+ 10-bit comparator lessequal                           : 7
+ 11-bit comparator greatequal                          : 3
+ 11-bit comparator greater                             : 7
+ 11-bit comparator less                                : 4
+ 11-bit comparator lessequal                           : 6
+ 12-bit comparator greater                             : 7
+ 12-bit comparator less                                : 6
+ 12-bit comparator lessequal                           : 1
+ 3-bit comparator greatequal                           : 2
+ 9-bit comparator greatequal                           : 4
+ 9-bit comparator greater                              : 13
+ 9-bit comparator less                                 : 15
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <hit_reset> in Unit <inst_pad> is equivalent to the following FF/Latch, which will be removed : <hit> 
+WARNING:Xst:1710 - FF/Latch <xOffset_9> (without init value) has a constant value of 0 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_8> (without init value) has a constant value of 0 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_7> (without init value) has a constant value of 0 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_6> (without init value) has a constant value of 1 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_5> (without init value) has a constant value of 1 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_4> (without init value) has a constant value of 0 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_3> (without init value) has a constant value of 0 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_2> (without init value) has a constant value of 1 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_1> (without init value) has a constant value of 0 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_0> (without init value) has a constant value of 0 in block <rightScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_9> (without init value) has a constant value of 1 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_8> (without init value) has a constant value of 1 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_7> (without init value) has a constant value of 0 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_6> (without init value) has a constant value of 0 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_5> (without init value) has a constant value of 1 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_4> (without init value) has a constant value of 1 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_3> (without init value) has a constant value of 1 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_2> (without init value) has a constant value of 0 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_1> (without init value) has a constant value of 0 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <xOffset_0> (without init value) has a constant value of 0 in block <leftScoreGen>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 30
+ 10-bit adder                                          : 2
+ 10-bit adder carry out                                : 1
+ 10-bit addsub                                         : 1
+ 11-bit adder                                          : 12
+ 11-bit subtractor                                     : 3
+ 12-bit subtractor                                     : 1
+ 2-bit adder                                           : 2
+ 3-bit adder                                           : 2
+ 9-bit adder carry out                                 : 5
+ 9-bit addsub                                          : 1
+# Counters                                             : 7
+ 10-bit up counter                                     : 1
+ 2-bit up counter                                      : 2
+ 3-bit up counter                                      : 2
+ 32-bit down counter                                   : 1
+ 9-bit up counter                                      : 1
+# Accumulators                                         : 2
+ 9-bit updown accumulator                              : 2
+# Registers                                            : 60
+ Flip-Flops                                            : 60
+# Comparators                                          : 98
+ 10-bit comparator greatequal                          : 6
+ 10-bit comparator greater                             : 7
+ 10-bit comparator less                                : 8
+ 10-bit comparator lessequal                           : 7
+ 11-bit comparator greatequal                          : 3
+ 11-bit comparator greater                             : 7
+ 11-bit comparator less                                : 4
+ 11-bit comparator lessequal                           : 6
+ 12-bit comparator greater                             : 7
+ 12-bit comparator less                                : 6
+ 12-bit comparator lessequal                           : 1
+ 3-bit comparator greatequal                           : 2
+ 9-bit comparator greatequal                           : 4
+ 9-bit comparator greater                              : 13
+ 9-bit comparator less                                 : 15
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <hit_reset> in Unit <pad_ctrl> is equivalent to the following FF/Latch, which will be removed : <hit> 
+INFO:Xst:2261 - The FF/Latch <rightScoreGen/xOffset_9> in Unit <pong> is equivalent to the following 11 FFs/Latches, which will be removed : <rightScoreGen/xOffset_8> <rightScoreGen/xOffset_7> <rightScoreGen/xOffset_4> <rightScoreGen/xOffset_3> <rightScoreGen/xOffset_1> <rightScoreGen/xOffset_0> <leftScoreGen/xOffset_7> <leftScoreGen/xOffset_6> <leftScoreGen/xOffset_2> <leftScoreGen/xOffset_1> <leftScoreGen/xOffset_0> 
+INFO:Xst:2261 - The FF/Latch <rightScoreGen/xOffset_6> in Unit <pong> is equivalent to the following 7 FFs/Latches, which will be removed : <rightScoreGen/xOffset_5> <rightScoreGen/xOffset_2> <leftScoreGen/xOffset_9> <leftScoreGen/xOffset_8> <leftScoreGen/xOffset_5> <leftScoreGen/xOffset_4> <leftScoreGen/xOffset_3> 
+WARNING:Xst:1710 - FF/Latch <rightScoreGen/xOffset_9> (without init value) has a constant value of 0 in block <pong>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rightScoreGen/xOffset_6> (without init value) has a constant value of 1 in block <pong>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <pong> ...
+
+Optimizing unit <pad_ctrl> ...
+
+Optimizing unit <hvsync_generator> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pong, actual ratio is 59.
+FlipFlop inst_pad/y_pos_bar_top_1 has been replicated 1 time(s)
+FlipFlop inst_pad/y_pos_bar_top_2 has been replicated 1 time(s)
+FlipFlop inst_pad/y_pos_bar_top_3 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 121
+ Flip-Flops                                            : 121
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : pong.ngr
+Top Level Output File Name         : pong
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 1230
+#      GND                         : 1
+#      INV                         : 60
+#      LUT1                        : 27
+#      LUT2                        : 249
+#      LUT2_D                      : 11
+#      LUT2_L                      : 2
+#      LUT3                        : 108
+#      LUT3_D                      : 6
+#      LUT3_L                      : 7
+#      LUT4                        : 207
+#      LUT4_D                      : 14
+#      LUT4_L                      : 23
+#      MULT_AND                    : 4
+#      MUXCY                       : 362
+#      MUXF5                       : 19
+#      VCC                         : 1
+#      XORCY                       : 129
+# FlipFlops/Latches                : 121
+#      FD                          : 6
+#      FDE                         : 72
+#      FDR                         : 12
+#      FDRE                        : 19
+#      FDS                         : 2
+#      FDSE                        : 10
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 16
+#      IBUF                        : 4
+#      IBUFG                       : 1
+#      OBUF                        : 11
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-4 
+
+ Number of Slices:                      379  out of    704    53%  
+ Number of Slice Flip Flops:            121  out of   1408     8%  
+ Number of 4 input LUTs:                714  out of   1408    50%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    108    14%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DCMs:                          1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)          | Load  |
+-----------------------------------+--------------------------------+-------+
+clock                              | instance_name/DCM_SP_INST:CLKFX| 121   |
+-----------------------------------+--------------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 24.367ns (Maximum Frequency: 41.039MHz)
+   Minimum input arrival time before clock: 5.757ns
+   Maximum output required time after clock: 6.599ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 24.367ns (frequency: 41.039MHz)
+  Total number of paths / destination ports: 18700 / 265
+-------------------------------------------------------------------------
+Delay:               11.696ns (Levels of Logic = 9)
+  Source:            inst_pad/y_ball_pos_3 (FF)
+  Destination:       inst_pad/update2_1 (FF)
+  Source Clock:      clock rising 2.1X
+  Destination Clock: clock rising 2.1X
+
+  Data Path: inst_pad/y_ball_pos_3 to inst_pad/update2_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q            38   0.591   1.407  inst_pad/y_ball_pos_3 (inst_pad/y_ball_pos_3)
+     LUT2_D:I0->LO         1   0.648   0.103  inst_pad/Madd_add0000_addsub0000_xor<5>111 (N136)
+     LUT4:I3->O            4   0.648   0.590  inst_pad/Madd_add0000_addsub0000_xor<8>111 (inst_pad/N34)
+     LUT4:I3->O            6   0.648   0.749  inst_pad/Madd_add0000_addsub0000_xor<8>1 (inst_pad/add0000_addsub0000<8>)
+     LUT2:I1->O            1   0.643   0.000  inst_pad/Mcompar_update2_cmp_lt0004_lut<8> (inst_pad/Mcompar_update2_cmp_lt0004_lut<8>)
+     MUXCY:S->O            1   0.632   0.000  inst_pad/Mcompar_update2_cmp_lt0004_cy<8> (inst_pad/Mcompar_update2_cmp_lt0004_cy<8>)
+     MUXCY:CI->O           1   0.269   0.423  inst_pad/Mcompar_update2_cmp_lt0004_cy<9> (inst_pad/Mcompar_update2_cmp_lt0004_cy<9>)
+     LUT4_D:I3->O          4   0.648   0.590  inst_pad/hit_reset_not00012257 (inst_pad/N107)
+     LUT4:I3->O            1   0.648   0.500  inst_pad/hit_reset_not000122_SW0_SW0 (N55)
+     LUT4:I1->O            2   0.643   0.447  inst_pad/update2_or00001 (inst_pad/update2_or0000)
+     FDRE:R                    0.869          inst_pad/update2_0
+    ----------------------------------------
+    Total                     11.696ns (6.887ns logic, 4.809ns route)
+                                       (58.9% logic, 41.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 171 / 42
+-------------------------------------------------------------------------
+Offset:              5.757ns (Levels of Logic = 12)
+  Source:            player_input<1> (PAD)
+  Destination:       inst_pad/y_pos_bar_top_2_8 (FF)
+  Destination Clock: clock rising 2.1X
+
+  Data Path: player_input<1> to inst_pad/y_pos_bar_top_2_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.849   0.534  player_input_1_IBUF (player_input_1_IBUF)
+     LUT4:I3->O            9   0.648   0.900  inst_pad/y_pos_bar_top_2_and0000_inv3 (inst_pad/y_pos_bar_top_2_and0000_inv)
+     LUT2:I1->O            1   0.643   0.000  inst_pad/Maccum_y_pos_bar_top_2_lut<0> (inst_pad/Maccum_y_pos_bar_top_2_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<0> (inst_pad/Maccum_y_pos_bar_top_2_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<1> (inst_pad/Maccum_y_pos_bar_top_2_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<2> (inst_pad/Maccum_y_pos_bar_top_2_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<3> (inst_pad/Maccum_y_pos_bar_top_2_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<4> (inst_pad/Maccum_y_pos_bar_top_2_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<5> (inst_pad/Maccum_y_pos_bar_top_2_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<6> (inst_pad/Maccum_y_pos_bar_top_2_cy<6>)
+     MUXCY:CI->O           0   0.065   0.000  inst_pad/Maccum_y_pos_bar_top_2_cy<7> (inst_pad/Maccum_y_pos_bar_top_2_cy<7>)
+     XORCY:CI->O           1   0.844   0.000  inst_pad/Maccum_y_pos_bar_top_2_xor<8> (inst_pad/Result<8>)
+     FDE:D                     0.252          inst_pad/y_pos_bar_top_2_8
+    ----------------------------------------
+    Total                      5.757ns (4.323ns logic, 1.434ns route)
+                                       (75.1% logic, 24.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              6.599ns (Levels of Logic = 2)
+  Source:            syncgen/vga_VS (FF)
+  Destination:       vga_v_sync (PAD)
+  Source Clock:      clock rising 2.1X
+
+  Data Path: syncgen/vga_VS to vga_v_sync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.420  syncgen/vga_VS (syncgen/vga_VS)
+     INV:I->O              1   0.648   0.420  syncgen/vga_v_sync1_INV_0 (vga_v_sync_OBUF)
+     OBUF:I->O                 4.520          vga_v_sync_OBUF (vga_v_sync)
+    ----------------------------------------
+    Total                      6.599ns (5.759ns logic, 0.840ns route)
+                                       (87.3% logic, 12.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.20 secs
+ 
+--> 
+
+
+Total memory usage is 522388 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   36 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+
